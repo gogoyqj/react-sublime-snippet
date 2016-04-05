@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+var base = path.join(__dirname, "code");
+var exclude = /.git*|node_modules/;
+var travel = function(filePath) {
+    fs.readdirSync(filePath).forEach(function(file) {
+        var file = path.join(filePath, file);
+        if(exclude.test(file)) return;
+        if(fs.statSync(file).isDirectory()) {
+            travel(file);
+        } else {
+            // do something
+        }
+    });
+};
+travel(${1:directory});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dir</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<View 
+    ${1:prop}
+>
+</View>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>View</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
