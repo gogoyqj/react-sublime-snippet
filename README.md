@@ -2,10 +2,14 @@ sublime-snippet for react-native
 
 
 ```
-    cpt+tab - 创建一个Component
+    Component+tab - 创建一个Component
 
-    rct+tab - 快速引入依赖
+    createClass+tab - 创建一个 var className = React.createClass({})
 
-    rmap+tab- 根据数组输出
+    react-native+tab - 快速引入依赖
+
+    StyleSheet+tab - 创建StyleSheet.create({})
+
+    map+tab- 根据数组输出
 
 ```

@@ -1,17 +1,15 @@
 <snippet>
     <content><![CDATA[
-import React, {
-    AppRegistry,
-    PropTypes,
-    Component,
-    StyleSheet,
-    Text,
-    View,
-    ${1:Other}
-} from 'react-native';
+
+var ${1:ComponentName} = React.createClass({
+    render: function() {
+
+    },
+})
+
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>react-native</tabTrigger>
+    <tabTrigger>createClass</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

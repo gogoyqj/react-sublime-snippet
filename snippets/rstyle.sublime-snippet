@@ -1,17 +1,9 @@
 <snippet>
     <content><![CDATA[
-import React, {
-    AppRegistry,
-    PropTypes,
-    Component,
-    StyleSheet,
-    Text,
-    View,
-    ${1:Other}
-} from 'react-native';
+style=\{${1:styles}\}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>react-native</tabTrigger>
+    <tabTrigger>style</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>
